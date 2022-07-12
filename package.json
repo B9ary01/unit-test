@@ -4,7 +4,8 @@
   "description": "This project contains unit testing functions",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage":"jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/B9ary01/unit-test#readme",
   "devDependencies": {
-    "jest": "^28.1.2"
+    "jest": "^28.1.2",
+    "jest-each": "^28.1.1"
   }
 }
